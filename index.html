@@ -1,0 +1,328 @@
+<!DOCTYPE HTML>
+<html lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+    <title>Neta Shaul</title>
+
+    <meta name="author" content="Neta Shaul">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="images/favicon/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" type="text/css" href="stylesheet.css">
+    
+  </head>
+
+  <body>
+    <table style="width:100%;max-width:800px;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+      <tr style="padding:0px">
+        <td style="padding:0px">
+          <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+            <tr style="padding:0px">
+              <td style="padding:2.5%;width:63%;vertical-align:middle">
+                <p class="name" style="text-align: center;">
+                  Neta Shaul
+                </p>
+                <p>
+                  I am a PhD student at the <a href="https://www.weizmann.ac.il/math/"> Weizmann Institute of Science</a> under the supervision of <a href="https://www.wisdom.weizmann.ac.il/~ylipman/">Yaron Lipman</a>. 
+                </p>
+                <p style="text-align:center">
+                  <a href="mailto:shaulneta@gmail.com">Email</a> &nbsp;/&nbsp;
+                  <a href="https://scholar.google.com/citations?user=761-alkAAAAJ&hl=en">Scholar</a> &nbsp;/&nbsp;
+                  <a href="https://x.com/shaulneta">Twitter</a> 
+                </p>
+              </td>
+              <td style="padding:2.5%;width:37%;max-width:37%">
+                <a href="images/NetaShaul.jpeg"><img style="width:100%;max-width:100%;object-fit: cover; border-radius: 50%;" alt="profile photo" src="images/NetaShaul.jpeg" class="hoverZoomLink"></a>
+              </td>
+            </tr>
+          </tbody></table>
+          <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+              <tr>
+              <td style="padding:16px;width:100%;vertical-align:middle">
+                <h2>Research</h2>
+                <p>
+                  My research focuses on developing and advancing scalable modeling frameworks for generative models. I'm interested in variaty data types of both discrete and continuous domains (text, images, videos and proteins, etc).
+                </p>
+              </td>
+            </tr>
+          </tbody></table>
+
+          <table style="width:100%;border:0px;border-spacing:0px 10px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+            <tr onmouseout="transition_matching_stop()" onmouseover="transition_matching_start()"  bgcolor="#ffffd0">
+              <td style="padding:16px;width:20%;vertical-align:middle">
+                <div class="one block-default">
+                  <div class="two" id='transition_matching_image'><video  width=100% height=100% muted autoplay loop>
+                  <source src="images/transition_matching.mp4" type="video/mp4">
+                  Your browser does not support the video tag.
+        
+                  </video></div>
+                  <img src='images/transition_matching.jpg' width="160">
+                </div>
+                <script type="text/javascript">
+                  function transition_matching_start() {
+                    document.getElementById('transition_matching_image').style.opacity = "1";
+                  }
+        
+                  function transition_matching_stop() {
+                    document.getElementById('transition_matching_image').style.opacity = "0";
+                  }
+                  transition_matching_stop()
+                </script>
+              </td>
+              <td style="padding:8px;width:80%;vertical-align:middle">
+                <a href="https://arxiv.org/abs/2506.23589">
+                  <span class="papertitle">Transition Matching: Scalable and Flexible Generative Modeling</span>
+                </a>
+                <br>
+                <strong>Neta Shaul</strong>,
+                <a href="https://scholar.google.com/citations?user=nIEep3cAAAAJ&hl=en">Uriel Singer</a>,
+                <a href="https://itaigat.com/">Itai Gat</a>,
+                <a href="https://www.wisdom.weizmann.ac.il/~ylipman/">Yaron Lipman</a>
+                <br>
+                <em>Preprint</em>, 2025
+                <br>
+                <a href="https://arxiv.org/abs/2506.23589">arXiv</a>
+                <p></p>
+                <p>
+                  Transition matching (TM) replaces the infinitesimal-timestep kernels from Flow Matching/Diffusion with a generative model, advancing both flow/diffusion and autoregressive models. TM variants achieve state-of-the-art text-to-image generation.
+                </p>
+              </td>
+            </tr>
+        
+            <tr onmouseout="discrete_fm_general_stop()" onmouseover="discrete_fm_general_start()" bgcolor="#ffffd0">
+              <td style="padding:16px;width:20%;vertical-align:middle">
+                <div class="one block-default">
+                  <div class="two" id='discrete_fm_general_image'><video  width=100% height=100% muted autoplay loop>
+                  <source src="images/discrete_fm_general.mp4" type="video/mp4">
+                  Your browser does not support the video tag.
+        
+                  </video></div>
+                  <img src='images/discrete_fm_general.png' width="160">
+                </div>
+                <script type="text/javascript">
+                  function discrete_fm_general_start() {
+                    document.getElementById('discrete_fm_general_image').style.opacity = "1";
+                  }
+        
+                  function discrete_fm_general_stop() {
+                    document.getElementById('discrete_fm_general_image').style.opacity = "0";
+                  }
+                  discrete_fm_general_stop()
+                </script>
+              </td>
+              <td style="padding:8px;width:80%;vertical-align:middle">
+                <a href="https://arxiv.org/abs/2412.03487">
+                  <span class="papertitle">Flow Matching with General Discrete Paths: A Kinetic-Optimal Perspective</span>
+                </a>
+                <br>
+                <strong>Neta Shaul</strong>,
+                <a href="https://itaigat.com/">Itai Gat</a>,
+                <a href="https://scholar.google.com/citations?user=EaYZfmoAAAAJ&hl=en">Marton Havasi</a>,
+                <a href="https://github.com/dsevero">Daniel Severo</a>,
+                <a href="https://anuroopsriram.com/">Anuroop Sriram</a>,
+                <a href="https://peterholderrieth.com/">Peter E. Holderrieth</a>,
+                <a href="https://scholar.google.com/citations?user=Wewcpo4AAAAJ&hl=en">Brian Karrer</a>,
+                <a href="https://www.wisdom.weizmann.ac.il/~ylipman/">Yaron Lipman</a>
+                <a href="https://rtqichen.github.io/">Ricky T. Q. Chen</a>
+                <br>
+                <em>ICLR</em>, 2025 &nbsp <font color="red"><strong>(Oral Presentation)</strong></font>
+                <br>
+                <a href="https://arxiv.org/abs/2412.03487">arXiv</a>
+                <p></p>
+                <p>
+                  Through the lens of kinetic optimality, we expand the design space of Discrete Flow Matching, allowing the use of any probability path and simultaneously justifying existing mixture paths.
+                </p>
+              </td>
+            </tr>
+        
+            <tr onmouseout="discrete_fm_stop()" onmouseover="discrete_fm_start()">
+              <td style="padding:16px;width:20%;vertical-align:middle">
+                <div class="one block-default">
+                  <div class="two" id='discrete_fm_image'><video  width=100% height=100% muted autoplay loop>
+                  <source src="images/discrete_fm.mp4" type="video/mp4">
+                  Your browser does not support the video tag.
+        
+                  </video></div>
+                  <img src='images/discrete_fm.jpeg' width="160">
+                </div>
+                <script type="text/javascript">
+                  function discrete_fm_start() {
+                    document.getElementById('discrete_fm_image').style.opacity = "1";
+                  }
+        
+                  function discrete_fm_stop() {
+                    document.getElementById('discrete_fm_image').style.opacity = "0";
+                  }
+                  discrete_fm_stop()
+                </script>
+              </td>
+              <td style="padding:8px;width:80%;vertical-align:middle">
+                <a href="https://arxiv.org/abs/2407.15595">
+                  <span class="papertitle">Discrete Flow Matching</span>
+                </a>
+                <br>
+                <a href="https://itaigat.com/">Itai Gat</a>,
+                <a href="https://talremez.github.io/">Tal Remez</a>,
+                <strong>Neta Shaul</strong>,
+                <a href="https://felixkreuk.github.io/">Felix Kreuk</a>,
+                <a href="https://rtqichen.github.io/">Ricky T. Q. Chen</a>,
+                <a href="https://emotion.inrialpes.fr/people/synnaeve/">Gabriel Synnaeve</a>,
+                <a href="https://www.cs.huji.ac.il/~adiyoss/">Yossi Adi</a>,
+                <a href="https://www.wisdom.weizmann.ac.il/~ylipman/">Yaron Lipman</a>
+                <br>
+                <em>NeurIPS</em>, 2024 &nbsp <font color="red"><strong>(Spotlight)</strong></font>
+                <br>
+                <a href="https://arxiv.org/abs/2407.15595">arXiv</a>
+                <p></p>
+                <p>
+                  Flow Matching for discrete data with applications to language modeling and image generation.
+                </p>
+              </td>
+            </tr>
+        
+            <tr onmouseout="bespoke_non_stop()" onmouseover="bespoke_non_start()">
+              <td style="padding:16px;width:20%;vertical-align:middle">
+                <div class="one block-default">
+                  <!-- <div class="two" id='bespoke_non_image'><video  width=100% height=100% muted autoplay loop>
+                  <source src="images/bespoke_non.mp4" type="video/mp4">
+                  Your browser does not support the video tag.
+        
+                  </video></div> -->
+                  <img src='images/bespoke_non.jpeg' width="160">
+                </div>
+                <script type="text/javascript">
+                  function bespoke_non_start() {
+                    document.getElementById('bespoke_non_image').style.opacity = "1";
+                  }
+        
+                  function bespoke_non_general_stop() {
+                    document.getElementById('bespoke_non_image').style.opacity = "0";
+                  }
+                  bespoke_non_stop()
+                </script>
+              </td>
+              <td style="padding:8px;width:80%;vertical-align:middle">
+                <a href="https://arxiv.org/abs/2403.01329">
+                  <span class="papertitle">Bespoke Non-Stationary Solvers for Fast Sampling of Diffusion and Flow Models</span>
+                </a>
+                <br>
+                <strong>Neta Shaul</strong>,
+                <a href="https://scholar.google.com/citations?user=nIEep3cAAAAJ&hl=en">Uriel Singer</a>,
+                <a href="https://rtqichen.github.io/">Ricky T. Q. Chen</a>,
+                <a href="https://scholar.google.com/citations?user=-8QcdvgAAAAJ&hl=en">Matthew Le</a>,
+                <a href="https://www.alithabet.com/">Ali Thabet</a>,
+                <a href="https://www.albertpumarola.com/">Albert Pumarola</a>,
+                <a href="https://www.wisdom.weizmann.ac.il/~ylipman/">Yaron Lipman</a>
+                <br>
+                <em>ICML</em>, 2024
+                <br>
+                <a href="https://arxiv.org/abs/2403.01329">arXiv</a>
+                <p></p>
+                <p>
+                  Optimizing model-specific non-stationary ODE solver for fast sampling of pre-trained Diffusion and Flow-Matching models.
+                </p>
+              </td>
+            </tr>
+            
+            <tr onmouseout="bespoke_stop()" onmouseover="bespoke_start()">
+              <td style="padding:16px;width:20%;vertical-align:middle">
+                <div class="one block-default">
+                  <div class="two" id='bespoke_image'><video  width=100% height=100% muted autoplay loop>
+                  <source src="images/bespoke.mp4" type="video/mp4">
+                  Your browser does not support the video tag.
+        
+                  </video></div>
+                  <img src='images/bespoke.jpg' width="160">
+                </div>
+                <script type="text/javascript">
+                  function bespoke_start() {
+                    document.getElementById('bespoke_image').style.opacity = "1";
+                  }
+        
+                  function bespoke_stop() {
+                    document.getElementById('bespoke_image').style.opacity = "0";
+                  }
+                  bespoke_stop()
+                </script>
+              </td>
+              <td style="padding:8px;width:80%;vertical-align:middle">
+                <a href="https://arxiv.org/abs/2310.19075">
+                  <span class="papertitle">Bespoke Solvers for Generative Flow Models</span>
+                </a>
+                <br>
+                <strong>Neta Shaul</strong>,
+                <a href="https://www.juancprzs.com/">Juan C. Pérez</a>,
+                <a href="https://rtqichen.github.io/">Ricky T. Q. Chen</a>,
+                <a href="https://www.alithabet.com/">Ali Thabet</a>,
+                <a href="https://www.albertpumarola.com/">Albert Pumarola</a>,
+                <a href="https://www.wisdom.weizmann.ac.il/~ylipman/">Yaron Lipman</a>
+                <br>
+                <em>ICLR</em>, 2024 &nbsp <font color="red"><strong>(Spotlight)</strong></font>
+                <br>
+                <a href="https://arxiv.org/abs/2310.19075">arXiv</a>
+                <p></p>
+                <p>
+                  A novel method to build costume-made ODE solvers for sampling pre-trained diffusion/flow models. Significantly improves generation quality for low number of function evaluations.
+                </p>
+              </td>
+            </tr>
+        
+            <tr onmouseout="fm_ko_stop()" onmouseover="fm_ko_start()">
+              <td style="padding:16px;width:20%;vertical-align:middle">
+                <div class="one block-default">
+                  <!-- <div class="two" id='fm_ko_image'><video  width=100% height=100% muted autoplay loop>
+                  <source src="images/fm_ko.mp4" type="video/mp4">
+                  Your browser does not support the video tag.
+        
+                  </video></div> -->
+                  <img src='images/fm_ko.jpeg' width="160">
+                </div>
+                <script type="text/javascript">
+                  function fm_ko_start() {
+                    document.getElementById('fm_ko_image').style.opacity = "1";
+                  }
+        
+                  function fm_ko_general_stop() {
+                    document.getElementById('fm_ko_image').style.opacity = "0";
+                  }
+                  fm_ko_stop()
+                </script>
+              </td>
+              <td style="padding:8px;width:80%;vertical-align:middle">
+                <a href="https://arxiv.org/abs/2306.06626">
+                  <span class="papertitle">On Kinetic Optimal Probability Paths for Generative Models</span>
+                </a>
+                <br>
+                <strong>Neta Shaul</strong>,
+                <a href="https://rtqichen.github.io/">Ricky T. Q. Chen</a>,
+                <a href="https://maxn.io/">Maximilian Nickel</a>,
+                <a href="https://scholar.google.com/citations?user=-8QcdvgAAAAJ&hl=en">Matthew Le</a>,
+                <a href="https://www.wisdom.weizmann.ac.il/~ylipman/">Yaron Lipman</a>
+                <br>
+                <em>ICML</em>, 2023
+                <br>
+                <a href="https://arxiv.org/abs/2306.06626">arXiv</a>
+                <p></p>
+                <p>
+                  We study Kinetic Optimal paths within the class of probability paths used for training generative models, and show that in high dimension Cond-OT path becomes the kinetic optimal.
+                </p>
+              </td>
+            </tr>
+
+          </tbody></table>
+
+          <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+            <tr>
+              <td style="padding:0px">
+                <br>
+                <p style="text-align:center;font-size:small;">
+                  Design and source code from <a href="https://jonbarron.info/"> Jon Barron's website</a>.
+                </p>
+              </td>
+            </tr>
+          </tbody></table>
+        </td>
+      </tr>
+    </table>
+  </body>
+</html>
