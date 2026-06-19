@@ -48,6 +48,47 @@
           </tbody></table>
 
           <table style="width:100%;border:0px;border-spacing:0px 10px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+
+            <tr onmouseout="flow_sampling_stop()" onmouseover="flow_sampling_start()">
+              <td style="padding:16px;width:20%;vertical-align:middle">
+                <div class="one block-default">
+                  <!-- <div class="two" id='flow_sampling_image'><video  width=100% height=100% muted autoplay loop>
+                  <source src="images/flow_sampling.mp4" type="video/mp4">
+                  Your browser does not support the video tag.
+        
+                  </video></div> -->
+                  <img src='images/flow_sampling.jpeg' width="160">
+                </div>
+                <script type="text/javascript">
+                  function flow_sampling_start() {
+                    document.getElementById('flow_sampling_image').style.opacity = "1";
+                  }
+        
+                  function flow_sampling_stop() {
+                    document.getElementById('flow_sampling_image').style.opacity = "0";
+                  }
+                  flow_sampling_stop()
+                </script>
+              </td>
+              <td style="padding:8px;width:80%;vertical-align:middle">
+                <a href="https://arxiv.org/abs/2605.03984">
+                  <span class="papertitle">Flow Sampling: Learning to Sample from Unnormalized Densities via Denoising Conditional Processes</span>
+                </a>
+                <br>
+                <a href="https://aaronhavens.github.io/">Aaron Havens</a>,
+                <a href="https://scholar.google.com/citations?user=Wewcpo4AAAAJ&hl=en">Brian Karrer</a>,
+                <strong>Neta Shaul</strong>,
+                <br>
+                <em>ICML</em>, 2026 &nbsp <font color="red"><strong>(Spotlight)</strong></font>
+                <br>
+                <a href="https://arxiv.org/abs/2605.03984">arXiv</a>
+                <p></p>
+                <p>
+                  Flow Sampling introduces a simplified and generalized framework for learning diffusion samplers from unnormalized densities. We demonstrate that our approach significantly reduces the required NFE for simulation during training and naturally extends to non-Euclidean geometries.
+                </p>
+              </td>
+            </tr>
+
             <tr onmouseout="transition_matching_stop()" onmouseover="transition_matching_start()"  bgcolor="#ffffd0">
               <td style="padding:16px;width:20%;vertical-align:middle">
                 <div class="one block-default">
